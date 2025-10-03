@@ -1,0 +1,131 @@
+---
+alwaysApply: true
+---
+
+# Project Rules · Music App
+
+## Models
+
+- Default: **o4-mini** / **4o-mini**
+- Use GPT-5 only for long-context or complex reasoning tasks
+<!--
+
+## 模型
+
+- 預設使用 **o4-mini** / **4o-mini**
+- 需要長上下文或高難度推理時才用 GPT-5  
+  -->
+
+## Recognition
+
+- ❌ Do NOT use LLMs for music fingerprinting
+- ✅ Must use **ACRCloud / AudD** for recognition
+<!--
+
+## 音樂辨識
+
+- 禁止用 LLM 做音樂指紋比對
+- 音樂辨識必須走 **ACRCloud / AudD**  
+  -->
+
+## Transcription
+
+- Use **Basic Pitch / Onsets-and-Frames / Omnizart** for transcription
+- LLMs only for chord names, section labels, metadata cleanup
+<!--
+
+## 轉譜
+
+- 使用 **Basic Pitch / Onsets-and-Frames / Omnizart**
+- LLM 只負責整理和弦名稱、段落標籤、metadata  
+  -->
+
+## Deliverables
+
+- Every transcription task must output: **MIDI + MusicXML + PDF**
+<!--
+
+## 產出
+
+- 轉譜任務必須輸出：**MIDI + MusicXML + PDF**  
+  -->
+
+## Folder Structure
+
+- apps/web → frontend (Next.js)
+- apps/worker → job processing
+- servers/mcp/\* → MCP tool services
+- scores/{jobId}/ → store midi/musicxml/pdf
+<!--
+
+## 專案結構
+
+- apps/web → 前端 (Next.js)
+- apps/worker → 任務處理
+- servers/mcp/\* → 工具服務
+- scores/{jobId}/ → 存放 midi/musicxml/pdf  
+  -->
+
+# Project Rules · Music App
+
+## Models
+
+- Default: **o4-mini** / **4o-mini**
+- Use GPT-5 only for long-context or complex reasoning tasks
+<!--
+
+## 模型
+
+- 預設使用 **o4-mini** / **4o-mini**
+- 需要長上下文或高難度推理時才用 GPT-5  
+  -->
+
+## Recognition
+
+- ❌ Do NOT use LLMs for music fingerprinting
+- ✅ Must use **ACRCloud / AudD** for recognition
+<!--
+
+## 音樂辨識
+
+- 禁止用 LLM 做音樂指紋比對
+- 音樂辨識必須走 **ACRCloud / AudD**  
+  -->
+
+## Transcription
+
+- Use **Basic Pitch / Onsets-and-Frames / Omnizart** for transcription
+- LLMs only for chord names, section labels, metadata cleanup
+<!--
+
+## 轉譜
+
+- 使用 **Basic Pitch / Onsets-and-Frames / Omnizart**
+- LLM 只負責整理和弦名稱、段落標籤、metadata  
+  -->
+
+## Deliverables
+
+- Every transcription task must output: **MIDI + MusicXML + PDF**
+<!--
+
+## 產出
+
+- 轉譜任務必須輸出：**MIDI + MusicXML + PDF**  
+  -->
+
+## Folder Structure
+
+- apps/web → frontend (Next.js)
+- apps/worker → job processing
+- servers/mcp/\* → MCP tool services
+- scores/{jobId}/ → store midi/musicxml/pdf
+<!--
+
+## 專案結構
+
+- apps/web → 前端 (Next.js)
+- apps/worker → 任務處理
+- servers/mcp/\* → 工具服務
+- scores/{jobId}/ → 存放 midi/musicxml/pdf  
+  -->
